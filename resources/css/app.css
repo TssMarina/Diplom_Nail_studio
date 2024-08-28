@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&family=Montserrat:ital,wght@1,400;1,500&display=swap");
+body {
+	font-family: Montserrat Alternates;
+}
+
+@font-face {
+    font-family: 'Tokyo Dreams';
+    src: url('TokyoDreams-Regular.eot');
+    src: local('Tokyo Dreams Regular'), local('TokyoDreams-Regular'),
+        url('TokyoDreams-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TokyoDreams-Regular.woff2') format('woff2'),
+        url('TokyoDreams-Regular.woff') format('woff'),
+        url('TokyoDreams-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.main-logo-font{
+    color: rgba(22, 38, 181, 1);
+    font-size: 220px;
+    font-family: 'Tokyo Dreams';
+    font-weight: 400;
+}
+
+.menu-link {
+    color: rgba(22, 38, 181, 1);
+    font-size: 20px;
+    text-align: center;
+}
+.logo {
+    width: 50px;
+}
+
+.background {
+    background-color: #A3B0FB;
+    opacity: 70%;
+ }
+
+ .backgroundPaper {
+     background: rgb(253, 253, 253);
+     background-image: url("D:\project\HandsUP\public\images\fon50.png");
+     background-image: url("D:\project\HandsUP\public\images\fon50.png"), linear-gradient(143deg, rgba(253,253,253,1) 29%, rgba(83,117,237,0.7) 100%);
+ }
+
+ .main-handswithflower {
+    height: 89.7vh;
+ }
+
+ .main-logo-span{
+    font-family: Montserrat Alternates;
+    font-weight: bold;
+    color: rgba(22, 38, 181, 1);
+    font-size: 22px;
+ }
+
+ .main-button {
+     width: 400px;
+     background-color: rgba(163, 176, 251, 1);
+     border-radius: 40px;
+ }
+
+ .main-button:hover {
+    background-color: #FFC2D3;
+ }
+
+ .main-text-button{
+    color: rgba(246, 248, 252, 1);
+    font-size: 36px;
+    font-style: Regular;
+    font-family: Montserrat Alternates;
+    text-decoration: none;
+ }
+
+ .main-text-button:hover {
+    color:rgba(246, 248, 252, 1);
+ }
+
+ .form-item{
+    margin: 35px 0px;
+    text-align: center;
+    align-items: center;
+ }
+
+ .form-input {
+    width: 80%;
+    background:  none;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid  rgba(246, 248, 252, 1);
+    color:rgba(22, 38, 181, 1);
+    border-radius: 0px;
+ }
+
+ .form-input::placeholder{
+    color:rgba(22, 38, 181, 1);
+ }
+
+ .form-input:read-write{
+    width: 80%;
+    background:  none;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid  rgba(246, 248, 252, 1);
+    color:rgba(22, 38, 181, 1);
+    border-radius: 0px;
+ }
+
+ .form-input:focus{
+    border:0;
+ }
+
+ .appointment-form{
+    background-color:  rgba(163, 176, 251, 0.6);
+    border-radius: 15px;
+    height: 100%;
+    width: 90%;
+ }
+
+ .form-header{
+   color :rgba(255, 255, 255, 0.8);
+   font-size: 40px;
+   font-weight: bolder;
+   text-align: center;
+ }
+
+ .form-button{
+     width: 250px;
+     background-color: rgba(255, 255, 255, 0.8);
+     border-radius: 40px;
+ }
+
+ .form-button:hover {
+    color:rgba(246, 248, 252, 1);
+    background-color:rgba(30, 3, 107, 0.6)
+ }
+
+ .appointment-image{
+     height: 90.3vh;
+     opacity: 60%;
+
+ }
+
+ .favour-header{
+    color: rgba(22, 38, 181, 0.6);
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+ }
+
+ .admin-table-header{
+    color :rgba(22, 38, 181, 0.6);
+    font-size: 24px;
+    font-weight: bolder;
+    border: none;
+    text-align: center;
+ }
+
+ .favour-table-header{
+     color:rgba(22, 38, 181, 0.3);
+     font-size: 36px;
+     font-weight: bolder;
+     border: none;
+     text-align: center;
+ }
+
+ .favour-table-data{
+    color:rgba(22, 38, 181, 0.9);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+ }
+
+ .favour-border-left {
+    border-left: 3px solid rgba(22, 38, 181, 0.9);;
+ }
+
+ .favour-image-left{
+     background-image: url("D:\project\HandsUP\public\images\manicureTools40.png");
+     background-repeat: no-repeat ;
+
+ }
+
+.favour-image-center {
+    background: rgb(13,16,194);
+    background: radial-gradient(circle, rgba(122,122,189,0.5327380952380952) 1%, rgba(122,138,205,0.42629551820728295) 15%, rgba(121,141,225,0.17139355742296913) 28%, rgba(228,230,243,0.022934173669467817) 40%);
+}
+
+
+.favour-image-right{
+    background-image: url("D:\project\HandsUP\public\images\manicureSticks40.png");
+    background-position: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat ;
+}
+
+ .admin-header{
+   color :rgba(22, 38, 181, 0.6);
+   font-size: 32px;
+   font-weight: bolder;
+   text-align: center;
+}
+
+.favour_add_button {
+   color: #1626b5;
+   font-size: 30px;
+
+}
+
+.contact-header{
+    color :rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: .7;
+}
+.contact-name{
+    font-family: "Tokyo Dreams";
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact-address{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    line-height: .7;
+}
+.contact-number{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.contact-info{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+.background-contact{
+    background-image:  url("D:\project\HandsUP\public\images\nails50.png");
+    background-repeat: no-repeat;
+}
+.portfolio-header{
+    color :rgba(22, 38, 181, 0.6);
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.portfolio-title{
+    color :rgba(22, 38, 181, 1);
+    font-size: 20px;
+    text-align: center;
+}
+
+.login-header{
+    color :rgba(22, 38, 181, 0.6);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.login-form{
+    background-color:  rgba(163, 176, 251, 0.6);
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+
+}
+.background-login {
+    background: rgb(112,122,189);
+    background: linear-gradient(29deg, rgba(112,122,189,0.5859593837535014) 1%, rgba(243,243,249,0.01) 25%);
+    height:99.5vh;
+    background-position: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat ;
+}
+
+.portfolio-carousel{
+    width: 100%;
+
+}
+
+.portfolio-image{
+    width: 100%;
+}
+
+
+
+
+
